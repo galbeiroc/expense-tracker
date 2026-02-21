@@ -1,7 +1,7 @@
 import { useState, type ChangeEvent } from "react";
 import { Link } from "react-router";
 
-import AuthLayout from "../../components/AuthLayout/AuthLayout";
+import AuthLayout from "../../components/Layout/AuthLayout";
 import Input from "../../components/Inputs/Input";
 
 import { validateEmail } from "../../utils/helper";
