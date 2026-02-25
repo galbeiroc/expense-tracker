@@ -23,9 +23,9 @@ const AuthLayout = ({ children }: AuthLayoutProps) => {
       </div>
 
       <div className={styles["auth-layout-right"]}>
-        <div className={styles["auth-layout-square1"]}></div>
-        <div className={styles["auth-layout-square2"]}></div>
-        <div className={styles["auth-layout-square3"]}></div>
+        <div className={styles["auth-layout-square1"]} />
+        <div className={styles["auth-layout-square2"]} />
+        <div className={styles["auth-layout-square3"]} />
 
         <div className={styles["auth-layout-icon"]}>
           <StastInfoCard

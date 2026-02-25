@@ -68,6 +68,15 @@
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
 }
 
+.auth-layout-icon {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  z-index: 20;
+  position: absolute;
+  top: 3rem;
+  width: inherit;
+}
+
 .stast-info-card {
   display: flex;
   align-items: center;
@@ -76,10 +85,6 @@
   padding: 4px;
   border-radius: 12px;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-  z-index: 1000;
-  position: absolute;
-  top: 3rem;
-  width: 100%;
 }
 
 .stast-info-icon {
