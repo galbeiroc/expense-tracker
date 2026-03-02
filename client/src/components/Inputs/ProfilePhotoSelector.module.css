@@ -1,0 +1,64 @@
+.profile-img-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-img-input {
+  display: none;
+}
+
+.profile-img-user {
+  background-color: #faf5ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.profile-user-icon {
+  font-size: 2.25rem;
+  color: var(--text-primary);
+}
+
+.profile-upload-btn {
+  background-color: var(--text-primary);
+  color: white;
+  font-size: 0.75rem;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.25rem;
+}
+
+.profile-img-upload {
+  position: relative;
+}
+
+.profile-img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-remove-btn {
+  background-color: #fb2c36;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.25rem;
+}

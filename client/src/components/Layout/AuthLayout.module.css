@@ -1,0 +1,124 @@
+.auth-layout-container {
+  display: flex;
+}
+
+.auth-layout-left {
+  padding: 8px 12px 12px 12px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.auth-layout-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 0;
+  color: black;
+}
+
+.auth-layout-right {
+  display: none;
+  background-color: #f5f3ff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  padding: 8px;
+  position: relative;
+  width: 40vw;
+  height: 100vh;
+}
+
+.auth-layout-square1 {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 40px;
+  background-color: #9810fa;
+  position: absolute;
+  top: -2rem;
+  left: -3rem;
+}
+
+.auth-layout-square2 {
+  width: 12rem;
+  height: 14rem;
+  border-radius: 40px;
+  border: 20px solid #c800de;
+  position: absolute;
+  top: 30%;
+  right: -010%;
+}
+
+.auth-layout-square3 {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 40px;
+  background-color: #8e51ff;
+  position: absolute;
+  bottom: -2rem;
+  left: -3rem;;
+}
+
+.auth-layout-image {
+  width: 90%;
+  height: 33%;
+  object-fit: fill;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 4.6rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}
+
+.auth-layout-icon {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  z-index: 20;
+  position: absolute;
+  top: 3rem;
+  width: inherit;
+}
+
+.stast-info-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: white;
+  padding: 4px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.stast-info-icon {
+  color: white;
+  background-color: #9810fa;
+  font-size: 26px;
+  border-radius: 50%;
+  filter: drop-shadow(0 9px 7px rgb(0 0 0 / 0.1));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+}
+
+.stast-info-label {
+  font-size: 0.75rem;
+  color: #6a7282;
+  margin: 0;
+  margin-bottom: 0.25rem;
+}
+
+.stast-info-value {
+  font-size: 20px;
+}
+
+@media (width >= 768px) {
+  .auth-layout-right {
+    display: block;
+  }
+}
+
+@media  (height >= 768px) {
+  .auth-layout-left {
+    width: 60vw;
+  }
+}
